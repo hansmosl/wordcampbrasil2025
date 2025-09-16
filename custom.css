@@ -1,0 +1,16 @@
+.inscricao .wp-block-button__link{
+    padding-right:50px;
+    display:flex;
+    flex-flow:row wrap;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    &::after{
+        content:'';
+        background-image:url('https://brasil.wordcamp.org/2025/files/2025/09/chevron.png');
+        background-size:contain;
+        display:flex;
+        position:absolute;
+        right:15px;
+    }
+}
