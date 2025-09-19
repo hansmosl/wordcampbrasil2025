@@ -24,6 +24,7 @@ header:has(>.is-position-sticky) {
 @media(min-width:600px){
     .mobile-visible{
         visibility: hidden;
+        display:none;
     }
     .mobile-hidden{
         visibility: visible;
@@ -35,5 +36,6 @@ header:has(>.is-position-sticky) {
     }
     .mobile-hidden{
         visibility: hidden;
+        display:none;
     }
 }
