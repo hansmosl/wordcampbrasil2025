@@ -21,3 +21,19 @@ header:has(>.is-position-sticky) {
     top: calc(0px + var(--wp-admin--admin-bar--height, 0px));
     z-index: 100;
 }
+@media(min-width:600px){
+    .mobile-visible{
+        visibility: hidden;
+    }
+    .mobile-hidden{
+        visibility: visible;
+    }
+}
+@media(max-width:599px){
+    .mobile-visible{
+        visibility: visible;
+    }
+    .mobile-hidden{
+        visibility: hidden;
+    }
+}
