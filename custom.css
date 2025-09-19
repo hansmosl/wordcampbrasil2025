@@ -16,3 +16,8 @@
     width:20px;
     height:20px;
 }
+header:has(>.is-position-sticky) {
+    position: sticky;
+    top: calc(0px + var(--wp-admin--admin-bar--height, 0px));
+    z-index: 100;
+}
