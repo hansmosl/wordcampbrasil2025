@@ -39,3 +39,6 @@ header:has(>.is-position-sticky) {
         display:none;
     }
 }
+.wp-block-cover.brilho-4{
+    filter: brightness(40%);
+}
