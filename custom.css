@@ -135,10 +135,6 @@ span.tix-ticket-excerpt {
 	border-radius: 4px;
 }
 
-/* Altera as recomendações de saúde */
-.tix-row-health-advisory td {
-}
-
 /* Finalizar compra: Adiciona aviso de formas de pagamento próximo ao botão */
 #tix .tix-submit:after {
     content: "Opções: cartão de crédito, boleto e Google Pay (com suporte a Pix)";
