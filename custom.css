@@ -42,3 +42,108 @@ header:has(>.is-position-sticky) {
 .wp-block-cover.brilho-4 img{
     filter: brightness(40%);
 }
+/* Adiciona estilos básicos para inputs */
+input {
+	font-family: inherit;
+	padding: 1em;
+}
+
+table.tix_tickets_table {
+	border: 1px solid;
+	border-radius: 4px;
+	border-spacing: 0;
+	font-size: var(--wp--preset--font-size--medium);
+	margin-bottom: 1em;
+	text-align: left;
+	width: 100%;
+}
+
+/* Estiliza o cabeçalho das tabelas */
+.tix-order-summary thead tr:first-child th,
+.tix_tickets_table.tix-attendee-form tbody tr:first-child th,
+.tix_tickets_table thead th {
+	background: var(--wp--preset--color--accent-5);
+	color: #fff;
+	padding: 1em;
+	text-align: left;
+}
+
+/* Garante que todo cabeçalho esteja em negrito */
+.tix-tickets-list thead .tix-column-description {
+	font-weight: bold;
+}
+
+/* Alterna cores entre linhas da tabela */
+.tix_tickets_table tr:nth-child(odd) {
+	background: rgba(255,255,255, 0.8);
+}
+
+/* Estiliza a descrição de cada ingresso */
+span.tix-ticket-excerpt {
+	font-size: .875em;
+}
+
+.tix_tickets_table td,
+.tix_tickets_table th {
+	padding: 1em;
+}
+
+.tix_tickets_table td input {
+	font-family: inherit;
+	padding: 1em;
+}
+
+.tix_tickets_table td select {
+	width: 70%;
+	padding: 1em;
+}
+
+.tix_tickets_table fieldset label {
+	display: inline-block;
+	margin-bottom: .25em;
+}
+
+/* Adiciona cursor para checkboxes */
+.tix_tickets_table fieldset label:hover,
+.tix_tickets_table input[type="checkbox"] + label:hover {
+	cursor: pointer;
+}
+
+/* Altera padrão dos botões */
+#tix .tix-submit .tix-checkout-button,
+#tix input[type="submit"] {
+	background: var(--wp--preset--color--accent-1);
+	border: 0;
+	border-radius: 4px;
+	color: var(--wp--preset--color--base);
+	font-size: inherit;
+	letter-spacing: 0;
+	padding: 15px 23px;
+	text-transform: none;
+}
+
+/* Esconde abas de pagamento acima do botão "Finalizar compra" */
+.tix-payment-method .tix-payment-tab {
+	display: none;
+}
+
+/* Altera visual dos avisos de ingressos */
+#tix .tix-error,
+#tix .tix-notice,
+#tix .tix-info {
+	padding: 16px;
+	border-radius: 4px;
+}
+
+/* Altera as recomendações de saúde */
+.tix-row-health-advisory td {
+}
+
+/* Finalizar compra: Adiciona aviso de formas de pagamento próximo ao botão */
+#tix .tix-submit:after {
+	content: "Opções: cartão de crédito, boleto e Google Pay (com suporte a Pix)";
+	display: inline-block;
+	font-size: .875em;
+	margin-top: 1em;
+	width: 50%;
+}
