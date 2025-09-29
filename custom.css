@@ -141,9 +141,9 @@ span.tix-ticket-excerpt {
 
 /* Finalizar compra: Adiciona aviso de formas de pagamento próximo ao botão */
 #tix .tix-submit:after {
-	content: "Opções: cartão de crédito, boleto e Google Pay (com suporte a Pix)";
-	display: inline-block;
-	font-size: .875em;
-	margin-top: 1em;
-	width: 50%;
+    content: "Opções: cartão de crédito, boleto e Google Pay (com suporte a Pix)";
+    display: inline-block;
+    font-size: .875em;
+    margin-top: 1em;
+    width: 50%;
 }
