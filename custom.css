@@ -143,3 +143,27 @@ span.tix-ticket-excerpt {
     margin-top: 1em;
     width: 50%;
 }
+
+/* Ingresso comprado: Estilos da tabela */ 
+.tix-ticket-form {
+	border: 1px solid;
+	border-radius: 4px;
+	border-spacing: 0;
+	margin-bottom: 3em;
+	width: 100%;
+}
+
+.tix-ticket-form thead {
+	background: var(--wp--preset--color--accent-5);
+	color: #fff;
+}
+    
+.tix-ticket-form td,
+.tix-ticket-form th {
+	padding: 1em;
+}
+    
+.tix-ticket-form a {
+    font-size: 0.875em;
+}
+/* Fim -- Ingresso comprado: Estilos da tabela */
