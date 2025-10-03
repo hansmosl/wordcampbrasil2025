@@ -167,3 +167,7 @@ span.tix-ticket-excerpt {
     font-size: 0.875em;
 }
 /* Fim -- Ingresso comprado: Estilos da tabela */
+
+ul.wp-block-list {
+    padding-left: 15px;
+}
