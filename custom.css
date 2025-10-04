@@ -64,7 +64,7 @@ table.tix_tickets_table {
 .tix_tickets_table thead th {
 	background: var(--wp--preset--color--accent-5);
 	color: #fff;
-	padding: 1em;
+	padding: 1rem;
 	text-align: left;
 }
 
@@ -85,22 +85,61 @@ span.tix-ticket-excerpt {
 
 .tix_tickets_table td,
 .tix_tickets_table th {
-	padding: 1em;
+	padding: 1rem;
 }
 
 .tix_tickets_table td input {
 	font-family: inherit;
-	padding: 1em;
+	padding: 1rem;
 }
 
-.tix_tickets_table td select {
-	width: 70%;
-	padding: 1em;
+/* Aplicar flex em todas as tr do tbody, exceto a primeira */
+.tix_tickets_table.tix-attendee-form tbody tr:not(:first-child) {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
 }
 
-.tix_tickets_table fieldset label {
-	display: inline-block;
-	margin-bottom: .25em;
+.tix_tickets_table.tix-attendee-form td {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Fieldsets responsivos */
+.tix_tickets_table.tix-attendee-form fieldset {
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Inputs e selects ocuparem largura total */
+.tix_tickets_table.tix-attendee-form input[type="text"],
+.tix_tickets_table.tix-attendee-form input[type="email"],
+.tix_tickets_table.tix-attendee-form input[type="url"],
+.tix_tickets_table.tix-attendee-form select {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Layout duas colunas em telas maiores */
+@media (min-width: 768px) {
+  .tix_tickets_table.tix-attendee-form tbody tr:not(:first-child) {
+    flex-direction: row;
+  }
+  
+  .tix_tickets_table.tix-attendee-form td.tix-left {
+    width: 40%;
+    flex-shrink: 0;
+  }
+  
+  .tix_tickets_table.tix-attendee-form td.tix-right {
+    width: 60%;
+    flex-grow: 1;
+  }
 }
 
 /* Adiciona cursor para checkboxes */
