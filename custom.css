@@ -57,6 +57,115 @@ table.tix_tickets_table {
 	text-align: left;
 	width: 100%;
 }
+/* Ingresso - Escolha do tipo de ingresso: Container principal em formato de cards empilhados no mobile */
+.tix_tickets_table.tix-tickets-list {
+	display: block;
+	width: 100%;
+	border: none;
+}
+
+/* Ingresso - Escolha do tipo de ingresso: Esconde o cabeçalho da tabela no mobile */
+.tix_tickets_table.tix-tickets-list thead {
+	display: none;
+}
+
+/* Ingresso - Escolha do tipo de ingresso: Tbody como container de cards no mobile */
+.tix_tickets_table.tix-tickets-list tbody {
+	display: block;
+}
+
+/* Ingresso - Escolha do tipo de ingresso: Cada linha vira um card individual com borda no mobile */
+.tix_tickets_table.tix-tickets-list tbody tr {
+	display: block;
+	margin-bottom: 1.5rem;
+	border: 1px solid var(--wp--preset--color--contrast);
+	border-radius: 4px;
+	padding: 1rem;
+}
+
+/* Ingresso - Escolha do tipo de ingresso: Remove borda e padding da última linha (cupom) no mobile */
+.tix_tickets_table.tix-tickets-list tbody tr:last-child {
+	border: none;
+	padding: 0;
+}
+
+/* Ingresso - Escolha do tipo de ingresso: Células empilhadas verticalmente no mobile */
+.tix_tickets_table.tix-tickets-list td,
+.tix_tickets_table.tix-tickets-list th {
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 0.5rem 0;
+}
+
+/* Ingresso - Escolha do tipo de ingresso: Adiciona label "Preço:" antes do valor no mobile */
+.tix_tickets_table.tix-tickets-list .tix-column-price::before {
+	content: "Preço: ";
+	font-weight: bold;
+}
+
+/* Ingresso - Escolha do tipo de ingresso: Adiciona label "Restante:" antes do valor no mobile */
+.tix_tickets_table.tix-tickets-list .tix-column-remaining::before {
+	content: "Restante: ";
+	font-weight: bold;
+}
+
+/* Ingresso - Escolha do tipo de ingresso: Adiciona label "Quantidade:" antes do select no mobile */
+.tix_tickets_table.tix-tickets-list .tix-column-quantity::before {
+	content: "Quantidade: ";
+	font-weight: bold;
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+/* Ingresso - Escolha do tipo de ingresso: Select de quantidade ocupa largura total até 200px */
+.tix_tickets_table.tix-tickets-list select {
+	width: 100%;
+	max-width: 200px;
+}
+
+/* Ingresso - Escolha do tipo de ingresso: Restaura formato tabela tradicional no desktop */
+@media (min-width: 768px) {
+	/* Ingresso - Escolha do tipo de ingresso: Volta ao display table no desktop */
+	.tix_tickets_table.tix-tickets-list {
+		display: table;
+		border: 1px solid var(--wp--preset--color--contrast);
+	}
+	
+	/* Ingresso - Escolha do tipo de ingresso: Mostra cabeçalho da tabela no desktop */
+	.tix_tickets_table.tix-tickets-list thead {
+		display: table-header-group;
+	}
+	
+	/* Ingresso - Escolha do tipo de ingresso: Tbody volta ao comportamento padrão no desktop */
+	.tix_tickets_table.tix-tickets-list tbody {
+		display: table-row-group;
+	}
+	
+	/* Ingresso - Escolha do tipo de ingresso: Linhas voltam ao formato tabela sem bordas individuais no desktop */
+	.tix_tickets_table.tix-tickets-list tbody tr {
+		display: table-row;
+		margin-bottom: 0;
+		border: none;
+		padding: 0;
+	}
+	
+	/* Ingresso - Escolha do tipo de ingresso: Células voltam ao comportamento padrão de tabela no desktop */
+	.tix_tickets_table.tix-tickets-list td,
+	.tix_tickets_table.tix-tickets-list th {
+		display: table-cell;
+		width: auto;
+		padding: 1rem;
+	}
+	
+	/* Ingresso - Escolha do tipo de ingresso: Remove labels gerados por CSS no desktop (cabeçalho já está visível) */
+	.tix_tickets_table.tix-tickets-list .tix-column-price::before,
+	.tix_tickets_table.tix-tickets-list .tix-column-remaining::before,
+	.tix_tickets_table.tix-tickets-list .tix-column-quantity::before {
+		content: none;
+	}
+}
+
 
 /* Estiliza o cabeçalho das tabelas */
 .tix-order-summary thead tr:first-child th,
