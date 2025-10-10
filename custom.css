@@ -319,3 +319,119 @@ span.tix-ticket-excerpt {
 ul.wp-block-list {
     padding-left: 15px;
 }
+
+.wp-block-jetpack-contact-form .wp-block-jetpack-button .wp-block-button__link,
+.entry-content #tix .tix-submit .tix-checkout-button, .entry-content #tix input[type="submit"]{
+	border-bottom: solid 4px var(--wp--preset--color--custom-laranja-escuro);  
+	padding:6px 18px;
+	text-transform:uppercase;
+}
+.wcb_sponsor{border:solid 1px #efefef;border-radius:6px;}
+#esconde{display:none!important}
+.wp-block-navigation-submenu a:hover,
+.wp-block-navigation-submenu a:focus {
+	background-color: #fff;
+}
+
+.wp-block-navigation-submenu a:hover span,
+.wp-block-navigation-submenu a:focus span {
+	color: #00595D;
+}
+
+.is-style-section-2 .wp-block-button__link,
+.is-style-section-4 .wp-block-button__link {
+	border-bottom: solid 4px #003235;
+}
+
+.is-style-section-4 .wp-block-button__link:hover,
+.is-style-section-4 .wp-block-button__link:focus {
+	background-color: var(--wp--preset--color--accent-5);
+	color: #fff;
+}
+
+#tix-attendees {
+	max-width: fit-content;
+}
+
+#tix-attendees .avatar.photo {
+	width: 125px;
+	height: 125px;
+	border-radius: .5rem;
+	float: none;
+	margin-bottom: 1rem;
+	border: solid 1px #efefef;
+}
+
+#tix-attendees .tix-attendee-list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 0;
+	padding: 0;
+	gap: 1rem;
+}
+
+#tix-attendees .tix-attendee-list.tix-columns-3 li {
+	width: auto;
+	margin: 0;
+	justify-content: center;
+	float: none;
+	height: auto;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+#tix-attendees .tix-attendee-list .tix-field {
+	font-size: inherit;
+	margin: 0;
+	flex-basis: 100%;
+	text-align: center;
+}
+
+#tix-attendees .tix-attendee-list .tix-field.tix-attendee-url {
+	display: inline-block;
+	font-size: 0;
+	flex-basis: 32px;
+	text-decoration: none;
+}
+
+#tix-attendees .tix-attendee-list .tix-field.tix-attendee-url:after {
+	content: '\f103';
+	font-size: 24px;
+	font-family: 'dashicons';
+}
+
+#tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-linkedin:after {
+	content: '\f18d';
+}
+
+#tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-wordpress-org-exemplo-https-profiles-wordpress-org-usuario:after {
+	content: '\f120';
+}
+
+@media (min-width:600px) {
+	#tix-attendees .tix-attendee-list {
+		grid-template-columns: repeat(3, 1fr);
+	}		
+}
+@media (min-width:960px) {
+	#tix-attendees .tix-attendee-list {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+@media (min-width:1200px) {
+	#tix-attendees .avatar.photo {
+		width: 256px;
+		height: 256px;
+	}
+}
+#eu-cookie-law.hide-on-button{font-size:0}
+#eu-cookie-law.hide-on-button a{font-size:14px;
+	padding-top:10px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#eu-cookie-law.hide-on-button a:before{
+	font-size:14px;
+  font-weight:normal;
+	content:'Privacidade e Cookies: Esse site faz uso de cookies. Ao continuar a usar esse site, você concorda com o seu uso. Para saber mais sobre como nós usamos cookies, leia nossa ';}
