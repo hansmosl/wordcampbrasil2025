@@ -166,6 +166,81 @@ table.tix_tickets_table {
 	}
 }
 
+/* Ingresso - Resumo do Pedido: Estiliza a tabela para telas menores */    
+@media screen and (max-width: 768px) {
+    
+    .tix-order-summary {
+        background: #fff;
+    }
+    
+    .tix-order-summary thead {
+        display: none;
+    }
+    
+    .tix-order-summary tbody {
+        display: block;
+    }
+    
+    .tix-order-summary tbody tr:not(.tix-row-total) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 12px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .tix-order-summary tbody tr:not(.tix-row-total):last-of-type {
+        border-bottom: 2px solid #333;
+        margin-bottom: 10px;
+    }
+    
+    .tix-order-summary .tix-column-description {
+        grid-column: 1 / -1;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    
+    .tix-order-summary .tix-column-per-ticket,
+    .tix-order-summary .tix-column-quantity,
+    .tix-order-summary .tix-column-price {
+        grid-column: auto;
+        font-size: 0.875rem;
+    }
+    
+    .tix-order-summary .tix-column-per-ticket:before,
+    .tix-order-summary .tix-column-quantity:before,
+    .tix-order-summary .tix-column-price:before {
+        font-weight: 600;
+        display: block;
+    }
+    
+    
+    .tix-order-summary .tix-column-per-ticket:before {
+        content: "Valor: ";
+    }
+    
+    .tix-order-summary .tix-column-quantity:before {
+        content: "Quantidade: ";
+    }
+    
+    .tix-order-summary .tix-column-price:before {
+        content: "Total: ";
+    }
+    
+    .tix-order-summary .tix-row-total {
+        display: block;
+        padding-top: 1rem;
+    }
+    
+    .tix-order-summary .tix-row-total td[colspan] {
+        display: none;
+    }
+    
+    .tix-order-summary .tix-row-total td {
+        display: block;
+        text-align: right;
+    }
+}
+
 
 /* Estiliza o cabeçalho das tabelas */
 .tix-order-summary thead tr:first-child th,
