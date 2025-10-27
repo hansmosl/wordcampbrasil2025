@@ -16,11 +16,15 @@
     width:20px;
     height:20px;
 }
+/* Hot fix para menu opção de menu fixo no cabeçalho */
 header:has(>.is-position-sticky) {
     position: sticky;
     top: calc(0px + var(--wp-admin--admin-bar--height, 0px));
     z-index: 100;
 }
+/*
+* Classes para ocultar elementos conforme tamanho de tela
+*/
 @media(min-width:600px){
     .mobile-visible{
         visibility: hidden;
@@ -42,6 +46,7 @@ header:has(>.is-position-sticky) {
 .wp-block-cover.brilho-4 img{
     filter: brightness(40%);
 }
+
 /* Adiciona estilos básicos para inputs */
 input {
 	font-family: inherit;
@@ -391,39 +396,6 @@ span.tix-ticket-excerpt {
 }
 /* Fim -- Ingresso comprado: Estilos da tabela */
 
-ul.wp-block-list {
-    padding-left: 15px;
-}
-
-.wp-block-jetpack-contact-form .wp-block-jetpack-button .wp-block-button__link,
-.entry-content #tix .tix-submit .tix-checkout-button, .entry-content #tix input[type="submit"]{
-	border-bottom: solid 4px var(--wp--preset--color--custom-laranja-escuro);  
-	padding:6px 18px;
-	text-transform:uppercase;
-}
-.wcb_sponsor{border:solid 1px #efefef;border-radius:6px;}
-#esconde{display:none!important}
-.wp-block-navigation-submenu a:hover,
-.wp-block-navigation-submenu a:focus {
-	background-color: #fff;
-}
-
-.wp-block-navigation-submenu a:hover span,
-.wp-block-navigation-submenu a:focus span {
-	color: #00595D;
-}
-
-.is-style-section-2 .wp-block-button__link,
-.is-style-section-4 .wp-block-button__link {
-	border-bottom: solid 4px #003235;
-}
-
-.is-style-section-4 .wp-block-button__link:hover,
-.is-style-section-4 .wp-block-button__link:focus {
-	background-color: var(--wp--preset--color--accent-5);
-	color: #fff;
-}
-
 #tix-attendees {
 	max-width: fit-content;
 }
@@ -500,6 +472,8 @@ ul.wp-block-list {
 		height: 256px;
 	}
 }
+
+/* Ajuste no aviso de cookies para aplicar texto traduzido via CSS */
 #eu-cookie-law.hide-on-button{font-size:0}
 #eu-cookie-law.hide-on-button a{font-size:14px;
 	padding-top:10px;
@@ -510,3 +484,159 @@ ul.wp-block-list {
 	font-size:14px;
   font-weight:normal;
 	content:'Privacidade e Cookies: Esse site faz uso de cookies. Ao continuar a usar esse site, você concorda com o seu uso. Para saber mais sobre como nós usamos cookies, leia nossa ';}
+
+/*Ajuste de recuo do bloco de lista*/
+ul.wp-block-list {
+    padding-left: 15px;
+}
+/* Adequação de aparência de alguns botões do tema*/
+.wp-block-jetpack-contact-form .wp-block-jetpack-button .wp-block-button__link,
+.entry-content #tix .tix-submit .tix-checkout-button, .entry-content #tix input[type="submit"]{
+	border-bottom: solid 4px var(--wp--preset--color--custom-laranja-escuro);  
+	padding:6px 18px;
+	text-transform:uppercase;
+}
+/* Para esconder temporariamente um elemento na página */
+#esconde{display:none!important}
+
+.wcb_sponsor{border:solid 1px #efefef;border-radius:6px;}
+
+/* Ajuste de aparência dos botões conforme estilo do grupo */
+.is-style-section-2 .wp-block-button__link,
+.is-style-section-4 .wp-block-button__link {
+	border-bottom: solid 4px #003235;
+}
+.is-style-section-4 .wp-block-button__link:hover,
+.is-style-section-4 .wp-block-button__link:focus {
+	background-color: var(--wp--preset--color--accent-5);
+	color: #fff;
+}
+
+/* Alteração na aparência dos botões de compartilhamento social */
+.wp-block-jetpack-sharing-buttons {
+	gap: 5px;
+}
+.jetpack-sharing-button__button {
+	padding: 6px 18px;
+	border-radius: 6px;
+}
+
+.wp-block-jetpack-contact-form .wp-block-jetpack-button .wp-block-button__link {
+	max-height: max-content;
+}
+
+/* Alteração de estilo para lista de categorias */
+.lista-categoria {
+	padding-left: 0;
+	list-style: none;
+}
+
+.lista-categoria a {
+	color: var(--wp--preset--color--contrast);
+	font-size: var(--wp--preset--font-size--small);
+	text-decoration: none;
+}
+
+/* Estilo do menu principal */
+.wp-block-navigation-submenu a:hover,
+.wp-block-navigation-submenu a:focus {
+	background-color: #fff;
+}
+
+.wp-block-navigation-submenu a:hover span,
+.wp-block-navigation-submenu a:focus span {
+	color: #00595D;
+}
+/* Estilo do menu Mobile */
+@media(max-width: 600px) {
+	.wp-block-navigation__responsive-container {
+		top: 43px;
+		right: 0;
+		padding: 0 !important;
+	}
+
+	.wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+		background: transparent;
+	}
+
+	.wp-block-navigation__responsive-container-close, .wp-block-navigation__responsive-container-open {
+		background: var(--wp--preset--color--accent-5);
+		color: #fff;
+		border-radius: 4px;
+		right: 28px;
+	}
+
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
+		background: var(--wp--preset--color--accent-1);
+		color: #fff;
+		padding: 1rem;
+		margin-top: 70px;
+		max-width: 280px;
+		right: 0;
+		position: absolute;
+		gap: 1rem;
+	}
+
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+		align-items: flex-end;
+	}
+
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container {
+		padding-top: 0;
+		gap: 0;
+	}
+
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+		padding: 0;
+	}
+
+	.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content {
+		padding: .25rem 0;
+	}
+
+	.wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content:hover, .wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content:focus, .wp-block-navigation .has-child .wp-block-navigation__submenu-container>.wp-block-navigation-item>.wp-block-navigation-item__content.active {
+		background: #fff;
+		color: var(--wp--preset--color--accent-5);
+	}
+
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item {
+		align-items: flex-end;
+	}
+
+	.wp-block-navigation-submenu .wp-block-navigation-item__content {
+		font-weight: 400;
+		text-transform: initial;
+	}
+
+	.wp-block-navigation__responsive-container-content .wp-block-buttons {
+		width: 100%;
+		justify-content: center;
+	}
+
+	.wp-block-navigation__responsive-container-content .wp-block-buttons .inscricao .wp-block-button__link {
+		border-bottom-color: #dadada;
+		background: #fff !important;
+		color: var(--wp--preset--color--accent-1) !important;
+	}
+
+	.wp-block-navigation__responsive-container-content .wp-block-buttons .inscricao .wp-block-button__link::after {
+		background-image: url('https://brasil.wordcamp.org/2025/files/2025/10/chevron-laranja.png');
+	}
+
+	.wp-block-navigation__container .wp-block-social-links {
+		justify-content: center !important;
+		width: 100%;
+	}
+
+	.wp-block-social-links .wp-block-social-link.wp-social-link {
+		color: #fff !important;
+	}
+
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+		width: 100%;
+	}
+
+	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-social-link {
+		color: #fff;
+	}
+}
