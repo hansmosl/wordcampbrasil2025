@@ -645,6 +645,8 @@ ul.wp-block-list {
 	width:100%!important;
 	height:auto!important;
 }
+.wp-block-wordcamp-avatar img {width:100%;border-radius:8px;}
+.is-layout-grid .wcb_speaker{margin-bottom:2rem;}
 @media (max-width:599px) {
 	.columns-4.is-layout-grid{
 		grid-template-columns:repeat(2, minmax(0, 1fr));
