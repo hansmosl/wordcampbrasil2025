@@ -640,3 +640,23 @@ ul.wp-block-list {
 		color: #fff;
 	}
 }
+
+.wp-block-wordcamp-avatar{
+	width:100%!important;
+	height:auto!important;
+}
+@media (max-width:599px) {
+	.columns-4.is-layout-grid{
+		grid-template-columns:repeat(2, minmax(0, 1fr));
+	}
+}
+@media (min-width:600px) {
+	.columns-4.is-layout-grid{
+		grid-template-columns:repeat(3, minmax(0, 1fr));
+	}
+}
+@media (min-width:960px) {
+	.columns-4.is-layout-grid{
+		grid-template-columns:repeat(4, minmax(0, 1fr));
+	}
+}
