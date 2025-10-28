@@ -640,12 +640,13 @@ ul.wp-block-list {
 		color: #fff;
 	}
 }
-
+/* Padrão de comportamento do avatar de imagem para palestrante e organizador */
 .wp-block-wordcamp-avatar{
 	width:100%!important;
 	height:auto!important;
 }
 .wp-block-wordcamp-avatar img {width:100%;height:auto;border-radius:8px;}
+
 .is-layout-grid .wcb_speaker{margin-bottom:2rem;}
 @media (max-width:599px) {
 	.columns-4.is-layout-grid{
