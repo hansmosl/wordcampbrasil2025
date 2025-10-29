@@ -689,3 +689,29 @@ ul.wp-block-list {
         flex-grow: 1;
     }
 }
+
+/* Estilo padrão de tabelas */
+table {
+	display: table;
+	border: 1px solid var(--wp--preset--color--contrast);
+	width: 100%;
+}
+table thead {
+	display: table-header-group;
+}
+table thead tr th {
+	font-weight: bold;
+	display: table-cell;
+	width: auto;
+	padding: 1rem;
+	background: var(--wp--preset--color--accent-5);
+    color: #fff;
+}
+table tbody tr th {
+	display: table-row;
+	margin-bottom: 0;
+	border: none;
+}
+table tbody tr:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.8);
+}
