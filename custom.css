@@ -667,21 +667,23 @@ ul.wp-block-list {
 
 /* Patrocinadores - layout em duas colunas */
 @media (min-width: 782px) {
-	.single-wcb_sponsor .wp-container-core-group-is-layout-d96ae05b {
+	.single-wcb_sponsor main > div {
 		display: flex;
 		flex-wrap: nowrap;
 		gap: 2em var(--wp--preset--spacing--70);
 		max-width: var(--wp--style--global--wide-size);
+		margin-left: auto !important;
+		margin-right: auto !important;
 	}
-	.single-wcb_sponsor .wp-container-core-group-is-layout-d96ae05b .wp-block-post-featured-image {
+	.single-wcb_sponsor main > div .wp-block-post-featured-image {
 		flex-basis: 270px;
 	}
-	.single-wcb_sponsor .wp-container-core-group-is-layout-d96ae05b .wp-block-post-featured-image img {
+	.single-wcb_sponsor main > div .wp-block-post-featured-image img {
 		width: 100%;
 		height: auto;
 		border-radius: 8px;
 	}
-    .single-wcb_sponsor .wp-container-core-group-is-layout-d96ae05b .wp-block-post-content {
+    .single-wcb_sponsor main > div .wp-block-post-content {
         flex-basis: 0;
         flex-grow: 1;
     }
