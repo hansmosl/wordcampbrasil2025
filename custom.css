@@ -751,3 +751,9 @@ table tbody tr:nth-child(odd) {
     align-items: flex-start;
     flex-direction: row;
 }
+
+/* Onde Comer */
+.onde-comer {
+	margin-top: 0;
+	margin-bottom: 0;
+}
