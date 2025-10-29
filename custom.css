@@ -436,7 +436,7 @@ span.tix-ticket-excerpt {
 }
 
 #tix-attendees .tix-attendee-list .tix-field.tix-attendee-url {
-	display: none;
+	display: inline-block;
 	font-size: 0;
 	flex-basis: 32px;
 	text-decoration: none;
