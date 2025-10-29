@@ -725,7 +725,7 @@ table tbody tr:nth-child(odd) {
 }
 
 /* Como chegar - Icones customizados*/
-.como-chegar .icone {
+.como-chegar .icone:before {
 	display: inline-block;
 	width: 24px;
 	height: 24px;
