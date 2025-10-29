@@ -667,7 +667,6 @@ ul.wp-block-list {
 
 /* Patrocinadores - layout em duas colunas */
 @media (min-width: 782px) {
-	wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-d96ae05b 
 	.single-wcb_sponsor .wp-container-core-group-is-layout-d96ae05b {
 		display: flex;
 		flex-wrap: nowrap;
