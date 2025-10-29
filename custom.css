@@ -690,7 +690,7 @@ ul.wp-block-list {
     }
 }
 
-/* Estilo padrão de tabelas */
+/* Global - Estilo padrão de tabelas */
 table {
 	display: table;
 	border: 1px solid var(--wp--preset--color--contrast);
@@ -722,4 +722,14 @@ table tbody tr td {
 }
 table tbody tr:nth-child(odd) {
     background: rgba(255, 255, 255, 0.8);
+}
+
+/* Como chegar - Icones customizados*/
+icone.metro:before {
+	content: url(https://raw.githubusercontent.com/hansmosl/wordcampbrasil2025/refs/heads/main/images/icons/icon-metro.svg);
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+	vertical-align: middle;
 }
