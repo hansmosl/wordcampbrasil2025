@@ -698,6 +698,7 @@ table {
 }
 table thead {
 	display: table-header-group;
+	border: none;
 }
 table thead tr th {
 	font-weight: bold;
@@ -706,8 +707,10 @@ table thead tr th {
 	padding: 1rem;
 	background: var(--wp--preset--color--accent-5);
     color: #fff;
+	border: none;
 }
-table tbody tr th {
+table thead tr th,
+table tbody tr td {
 	display: table-row;
 	margin-bottom: 0;
 	border: none;
