@@ -743,4 +743,11 @@ table tbody tr:nth-child(odd) {
 }
 .como-chegar .icone.local:before {
 	content: url(https://raw.githubusercontent.com/hansmosl/wordcampbrasil2025/refs/heads/main/images/icons/icon-google-maps.svg);
+	margin-top: 3px;
+}
+.como-chegar .icone.local {
+	display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
 }
