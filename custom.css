@@ -436,7 +436,7 @@ span.tix-ticket-excerpt {
 }
 
 #tix-attendees .tix-attendee-list .tix-field.tix-attendee-url {
-	display: inline-block;
+	display: none;
 	font-size: 0;
 	flex-basis: 32px;
 	text-decoration: none;
@@ -463,7 +463,7 @@ span.tix-ticket-excerpt {
 }
 @media (min-width:960px) {
 	#tix-attendees .tix-attendee-list {
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(5, 1fr);
 	}
 }
 @media (min-width:1200px) {
