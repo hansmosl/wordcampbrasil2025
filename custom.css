@@ -676,12 +676,13 @@ ul.wp-block-list {
 		margin-right: auto !important;
 	}
 	.single-wcb_sponsor main > div .wp-block-post-featured-image {
-		flex-basis: 270px;
+		flex-basis: 360px;
 	}
 	.single-wcb_sponsor main > div .wp-block-post-featured-image img {
 		width: 100%;
 		height: auto;
 		border-radius: 8px;
+		border: 1px solid var(--wp--preset--color--custom-cinza-claro) !important;
 	}
     .single-wcb_sponsor main > div .wp-block-post-content {
         flex-basis: 0;
