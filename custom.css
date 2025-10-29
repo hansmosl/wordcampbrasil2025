@@ -667,7 +667,7 @@ ul.wp-block-list {
 
 /* Patrocinadores - layout em duas colunas */
 @media (min-width: 782px) {
-	.wp-block-group {
+	.single-wcb_sponsor .wp-block-group {
 		display: flex;
 		flex-wrap: nowrap;
 		gap: 2em var(--wp--preset--spacing--70);
