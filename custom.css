@@ -468,8 +468,9 @@ span.tix-ticket-excerpt {
 }
 @media (min-width:1200px) {
 	#tix-attendees .avatar.photo {
-		width: 256px;
-		height: 256px;
+		width: 100%;
+		height: auto;
+		max-width:256px;
 	}
 }
 
