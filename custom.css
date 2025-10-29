@@ -419,7 +419,7 @@ span.tix-ticket-excerpt {
 
 #tix-attendees .tix-attendee-list.tix-columns-3 li {
 	width: auto;
-	margin: 0;
+	margin: 0 0 40px 0;
 	justify-content: center;
 	float: none;
 	height: auto;
