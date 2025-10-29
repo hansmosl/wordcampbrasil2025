@@ -741,6 +741,6 @@ table tbody tr:nth-child(odd) {
 .como-chegar .icone.taxi:before {
 	content: url(https://raw.githubusercontent.com/hansmosl/wordcampbrasil2025/refs/heads/main/images/icons/icon-carro.svg);
 }
-.como-chegar .icone.local {
+.como-chegar .icone.local:before {
 	content: url(https://raw.githubusercontent.com/hansmosl/wordcampbrasil2025/refs/heads/main/images/icons/icon-google-maps);
 }
