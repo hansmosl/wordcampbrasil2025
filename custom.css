@@ -426,6 +426,7 @@ span.tix-ticket-excerpt {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
+	align-content: flex-start;
 }
 
 #tix-attendees .tix-attendee-list .tix-field {
