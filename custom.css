@@ -656,7 +656,7 @@ ul.wp-block-list {
 		width: 100%;
 	}
 
-	.wp-block-social-links .wp-block-social-link.wp-social-link {
+	.wp-block-navigation__container .wp-block-social-links .wp-block-social-link.wp-social-link {
 		color: #fff !important;
 	}
 
