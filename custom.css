@@ -539,7 +539,10 @@ ul.wp-block-list {
 	text-decoration: none;
 }
 
-/* Estilo do menu principal */
+/*
+* Estilo do menu principal
+* @ .wp-block-navigation
+*/
 .wp-block-navigation-submenu a:hover,
 .wp-block-navigation-submenu a:focus {
 	background-color: #fff;
@@ -549,8 +552,31 @@ ul.wp-block-list {
 .wp-block-navigation-submenu a:focus span {
 	color: #00595D;
 }
+
+.wp-block-navigation-submenu a:focus {
+	outline: none;
+}
+
 /* Estilo do menu Mobile */
 @media(max-width: 600px) {
+	.wp-block-navigation-submenu a>span {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	
+	.wp-block-navigation-submenu ul a>span {
+		font-weight: normal;
+		text-transform: inherit;
+	}
+	
+	.wp-block-navigation-submenu a:hover,
+	.wp-block-navigation-submenu a:focus,
+	.wp-block-navigation-submenu a:hover span,
+	.wp-block-navigation-submenu a:focus span {
+		background: transparent !important;
+		text-decoration: none;
+		color: #fff !important;
+	}
 	.wp-block-navigation__responsive-container {
 		top: 43px;
 		right: 0;
@@ -642,6 +668,7 @@ ul.wp-block-list {
 		color: #fff;
 	}
 }
+
 /* Padrão de comportamento do avatar de imagem para palestrante e organizador */
 .wp-block-wordcamp-avatar{
 	width:100%!important;
@@ -757,4 +784,13 @@ table tbody tr:nth-child(odd) {
 .onde-comer {
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+.is-layout-grid .wcb_sponsor {
+	border: 0;
+}
+
+.remove-link a {
+	text-decoration: none !important;
+	cursor: default !important;
 }
