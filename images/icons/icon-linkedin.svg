@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="icon-linkedin.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="8.587619"
+     inkscape:cx="19.912388"
+     inkscape:cy="22.998226"
+     inkscape:window-width="1600"
+     inkscape:window-height="863"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="font-size:33.3686px;font-family:dashicons;-inkscape-font-specification:dashicons;fill:#f56530;stroke-width:0.999026"
+       d="M 1.1317075,32 H 7.1414637 V 9.8341459 H 1.1317075 Z M 4.0975611,9.9999998e-8 q -1.4829269,0 -2.5756097,1.092683000000002 -1.01463415,1.014634 -1.01463415,2.4975609 0,1.4829267 1.01463415,2.5756097 1.0926828,1.0146342 2.5756097,1.0146342 1.5609756,0 2.5756097,-1.0146342 1.0146339,-1.092683 1.0146339,-2.5756097 0,-1.4829269 -1.0146339,-2.4975609 Q 5.6585367,9.9999998e-8 4.0975611,9.9999998e-8 Z M 17.287805,13.190244 V 9.8341459 H 11.356098 V 32 h 5.931707 V 20.604878 q 0,-2.263414 1.326829,-3.668293 1.170732,-1.24878 2.809757,-1.24878 1.639023,-0.07805 2.809755,1.170732 1.248781,1.326829 1.248781,3.746341 V 32 h 6.009756 V 18.419512 q 0,-3.82439 -1.795122,-6.087805 -1.639025,-2.029268 -4.214634,-2.4975611 -2.419513,-0.468292 -4.760976,0.4682931 -2.341463,0.936586 -3.434146,2.887805 z"
+       id="text1"
+       aria-label="" />
+  </g>
+</svg>

@@ -444,7 +444,7 @@ span.tix-ticket-excerpt {
 }
 
 #tix-attendees .tix-attendee-list .tix-field.tix-attendee-url:after {
-	background-image:url('https://brasil.wordcamp.org/2025/files/2025/11/icone-link.webp');
+	background-image:url('/images/icons/icon-link.svg');
 	background-size:contain;
 	background-repeat:no-repeat;
 	width:32px;
@@ -452,11 +452,11 @@ span.tix-ticket-excerpt {
 }
 
 #tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-linkedin:after {
-	background-image:url('https://brasil.wordcamp.org/2025/files/2025/11/icone-linkedin.webp');
+	background-image:url('/images/icons/icon-linkedin.svg');
 }
 
 #tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-wordpress-org-exemplo-https-profiles-wordpress-org-usuario:after {
-	background-image:url('https://brasil.wordcamp.org/2025/files/2025/11/icone-wp.webp');
+	background-image:url('/images/icons/icon-wordpress.svg');
 }
 
 @media (min-width:600px) {
