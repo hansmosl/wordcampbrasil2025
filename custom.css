@@ -439,23 +439,20 @@ span.tix-ticket-excerpt {
 #tix-attendees .tix-attendee-list .tix-field.tix-attendee-url {
 	display: inline-block;
 	font-size: 0;
-	flex-basis: 32px;
 	text-decoration: none;
-}
-
-#tix-attendees .tix-attendee-list .tix-field.tix-attendee-url:after {
 	background-image:url('/images/icons/icon-link.svg');
 	background-size:contain;
 	background-repeat:no-repeat;
 	width:32px;
 	height:32px;
+	flex-basis:32px;
 }
 
-#tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-linkedin:after {
+#tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-linkedin{
 	background-image:url('/images/icons/icon-linkedin.svg');
 }
 
-#tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-wordpress-org-exemplo-https-profiles-wordpress-org-usuario:after {
+#tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-wordpress-org-exemplo-https-profiles-wordpress-org-usuario{
 	background-image:url('/images/icons/icon-wordpress.svg');
 }
 
