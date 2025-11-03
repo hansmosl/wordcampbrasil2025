@@ -441,11 +441,13 @@ span.tix-ticket-excerpt {
 	font-size: 0;
 	text-decoration: none;
 	background-image:url('https://raw.githubusercontent.com/hansmosl/wordcampbrasil2025/refs/heads/main/images/icons/icon-link.svg');
-	background-size:contain;
+	background-size:24px;
 	background-repeat:no-repeat;
+	background-position:center;
 	width:32px;
 	height:32px;
 	flex-basis:32px;
+
 }
 
 #tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-linkedin{
