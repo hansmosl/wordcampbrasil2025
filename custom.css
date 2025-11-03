@@ -440,7 +440,7 @@ span.tix-ticket-excerpt {
 	display: inline-block;
 	font-size: 0;
 	text-decoration: none;
-	background-image:url('/images/icons/icon-link.svg');
+	background-image:url('https://raw.githubusercontent.com/hansmosl/wordcampbrasil2025/refs/heads/main/images/icons/icon-link.svg');
 	background-size:contain;
 	background-repeat:no-repeat;
 	width:32px;
@@ -449,11 +449,11 @@ span.tix-ticket-excerpt {
 }
 
 #tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-linkedin{
-	background-image:url('/images/icons/icon-linkedin.svg');
+	background-image:url('https://raw.githubusercontent.com/hansmosl/wordcampbrasil2025/refs/heads/main/images/icons/icon-linkedin.svg');
 }
 
 #tix-attendees .tix-attendee-list .tix-field.tix-attendee-url.tix-perfil-no-wordpress-org-exemplo-https-profiles-wordpress-org-usuario{
-	background-image:url('/images/icons/icon-wordpress.svg');
+	background-image:url('https://raw.githubusercontent.com/hansmosl/wordcampbrasil2025/refs/heads/main/images/icons/icon-wordpress.svg');
 }
 
 @media (min-width:600px) {
