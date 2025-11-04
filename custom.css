@@ -795,36 +795,3 @@ table tbody tr:nth-child(odd) {
 	text-decoration: none !important;
 	cursor: default !important;
 }
-
-
-/* Programação */
-/* .wordcamp-schedule__day .is-column-time,
-.wordcamp-schedule__day .wordcamp-schedule__time-slot-header.has-sessions {
-	display: none;
-} */
-
-.wordcamp-schedule__day .is-column-time, 
-.wordcamp-schedule__day .wordcamp-schedule__time-slot-header.has-sessions,
-.wordcamp-schedule__column-header .is-column-time, 
-.wordcamp-schedule__time-slot-header.has-sessions  {
-	display: block !important;
-}
-
-.wordcamp-schedule__session {
-}
-
-.wordcamp-schedule__time-slot-header,
-.wordcamp-schedule__session {
-	background-color: var(--wp--preset--color--base); 
-}
-
-.wordcamp-schedule__time-slot-header:nth-child(odd)
-.wordcamp-schedule__session:nth-child(odd) {
-	background-color: var(--wp--preset--color--vivid-green-cyan);
-
-}
-.wordcamp-schedule__time-slot-header,
-.wordcamp-schedule__session .wordcamp-schedule__session-title,
-.wordcamp-schedule__session p {
-	color: var(--wp--preset--color--black);
-}
