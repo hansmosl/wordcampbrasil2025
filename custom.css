@@ -811,35 +811,20 @@ table tbody tr:nth-child(odd) {
 }
 
 .wordcamp-schedule__session {
-	display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    align-content: flex-start;
-    justify-content: space-between;
-    align-items: flex-start;
 }
 
+.wordcamp-schedule__time-slot-header,
 .wordcamp-schedule__session {
 	background-color: var(--wp--preset--color--base); 
 }
 
+.wordcamp-schedule__time-slot-header:nth-child(odd)
 .wordcamp-schedule__session:nth-child(odd) {
 	background-color: var(--wp--preset--color--vivid-green-cyan);
 
 }
-
-.wordcamp-schedule__session .wordcamp-schedule__session-title {
-    height: 50px;
-    box-sizing: border-box;
-    max-width: 85%;
-    width: 100%;
-	padding: 15px;
-}
+.wordcamp-schedule__time-slot-header,
+.wordcamp-schedule__session .wordcamp-schedule__session-title,
 .wordcamp-schedule__session p {
-    height: auto;
-    box-sizing: border-box;
-    max-width: 15%;
-    margin: 0;
-    width: 100%;
-	padding: 15px;
+	color: var(--wp--preset--color--black);
 }
