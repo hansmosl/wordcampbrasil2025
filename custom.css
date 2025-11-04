@@ -798,9 +798,16 @@ table tbody tr:nth-child(odd) {
 
 
 /* Programação */
-.wordcamp-schedule__day .is-column-time,
+/* .wordcamp-schedule__day .is-column-time,
 .wordcamp-schedule__day .wordcamp-schedule__time-slot-header.has-sessions {
 	display: none;
+} */
+
+.wordcamp-schedule__day .is-column-time, 
+.wordcamp-schedule__day .wordcamp-schedule__time-slot-header.has-sessions,
+.wordcamp-schedule__column-header .is-column-time, 
+.wordcamp-schedule__time-slot-header.has-sessions  {
+	display: block !important;
 }
 
 .wordcamp-schedule__session {
