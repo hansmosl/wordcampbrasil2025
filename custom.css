@@ -810,28 +810,30 @@ table tbody tr:nth-child(odd) {
 
 /* Dia de colaboração */
 
-.dia-colaboracao .wordcamp-schedule__column-header{
+.dia-colaboracao .wordcamp-schedule__column-header,
+.dia-evento .wordcamp-schedule__column-header{
 	background:var(--wp--preset--color--accent-5) !important;
 	color:#fff;
+	font-weight:bold;	
 	font-size:1rem;
 }
 .dia-colaboracao .wordcamp-schedule__session{
 	display:grid;
 	grid-template-columns:1fr 1fr;	align-items:center;
 	gap:1rem;
-	color:#00635e;
-	font-weight:bold;
+	color:var(--wp--preset--color--contrast);
 }
 .dia-colaboracao .wordcamp-schedule__session-title{
 	justify-content:flex-end;	
+	font-weight:bold;
 }
 .dia-colaboracao .wordcamp-schedule__session:nth-child(4n){
 	background:#29a46c;
-	color:#fff;
+	color:var(--wp--preset--color--contrast);
 	font-weight:bold  
 }
 .dia-colaboracao .wordcamp-schedule__session:nth-child(4n) .wordcamp-schedule__session-title{
-	color:#fff;
+	color:var(--wp--preset--color--contrast);
 }
 .dia-colaboracao .wordcamp-schedule__session-tracks{
 	display:none!important;
@@ -839,18 +841,12 @@ table tbody tr:nth-child(odd) {
 
 /* Dia do evento */
 
-.dia-evento .wordcamp-schedule__column-header{
-	background-color:var(--wp--preset--color--accent-5)!important;
-	color:#fff;
-	font-weight:bold;	
-	font-size:1rem;
-}
-.dia-evento .wordcamp-schedule__session{
-	font-weight:bold;
+.dia-evento .wordcamp-schedule__session .wordcamp-schedule__session-title{font-weight:bold;}
+.dia-evento .wordcamp-schedule__session,
+.dia-evento .wordcamp-schedule__session .wordcamp-schedule__session-title,
+.dia-evento .wordcamp-schedule__session .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session .wordcamp-schedule__session-title a{
 	color:var(--wp--preset--color--contrast);
-}
-.dia-evento .wordcamp-schedule__session .wordcamp-schedule__session-title{
-	color:var(--wp--preset--color--accent-1)
 }
 .dia-evento .wordcamp-schedule__session:nth-child(5),
 .dia-evento .wordcamp-schedule__session:nth-child(9),
@@ -868,30 +864,3 @@ table tbody tr:nth-child(odd) {
 	background:var(--wp--preset--color--accent-1);
 	color:var(--wp--preset--color--contrast);
 }
-.dia-evento .wordcamp-schedule__session:nth-child(5) .wordcamp-schedule__session-title,
-.dia-evento .wordcamp-schedule__session:nth-child(5) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(9) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(9) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(13) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(13) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(14) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(14) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(18) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(18) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(19) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(19) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(23) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(23) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(28) .wordcamp-schedule__session-title,
-.dia-evento .wordcamp-schedule__session:nth-child(28) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(33) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(33) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(38) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(38) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(39) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(39) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(43) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(43) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(44) .wordcamp-schedule__session-title a,
-.dia-evento .wordcamp-schedule__session:nth-child(44) .wordcamp-schedule__session-speakers a
-{color:var(--wp--preset--color--contrast);}
