@@ -829,11 +829,10 @@ table tbody tr:nth-child(odd) {
 }
 .dia-colaboracao .wordcamp-schedule__session:nth-child(4n){
 	background:#29a46c;
-	color:var(--wp--preset--color--contrast);
-	font-weight:bold  
+	color:var(--wp--preset--color--contrast);	
 }
 .dia-colaboracao .wordcamp-schedule__session:nth-child(4n) .wordcamp-schedule__session-title{
-	color:var(--wp--preset--color--contrast);
+	color:var(--wp--preset--color--contrast);	
 }
 .dia-colaboracao .wordcamp-schedule__session-tracks{
 	display:none!important;
