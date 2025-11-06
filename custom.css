@@ -882,7 +882,7 @@ table tbody tr:nth-child(odd) {
 .dia-evento .wordcamp-schedule__session:nth-child(19) .wordcamp-schedule__session-speakers a,
 .dia-evento .wordcamp-schedule__session:nth-child(23) .wordcamp-schedule__session-title a,
 .dia-evento .wordcamp-schedule__session:nth-child(23) .wordcamp-schedule__session-speakers a,
-.dia-evento .wordcamp-schedule__session:nth-child(28) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(28) .wordcamp-schedule__session-title,
 .dia-evento .wordcamp-schedule__session:nth-child(28) .wordcamp-schedule__session-speakers a,
 .dia-evento .wordcamp-schedule__session:nth-child(33) .wordcamp-schedule__session-title a,
 .dia-evento .wordcamp-schedule__session:nth-child(33) .wordcamp-schedule__session-speakers a,
