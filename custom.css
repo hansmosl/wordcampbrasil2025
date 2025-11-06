@@ -818,17 +818,13 @@ table tbody tr:nth-child(odd) {
 	font-size:1rem;
 }
 .dia-colaboracao .wordcamp-schedule__session{
-	display:grid;
-	grid-template-columns:1fr 1fr;	align-items:center;
-	gap:1rem;
 	color:var(--wp--preset--color--contrast);
 }
 .dia-colaboracao .wordcamp-schedule__session-title{
-	justify-content:flex-end;	
 	font-weight:bold;
 }
 .dia-colaboracao .wordcamp-schedule__session:nth-child(4n){
-	background:#29a46c;
+	background:#BAF2C1;
 	color:var(--wp--preset--color--contrast);	
 }
 .dia-colaboracao .wordcamp-schedule__session:nth-child(4n) .wordcamp-schedule__session-title{
@@ -860,7 +856,7 @@ table tbody tr:nth-child(odd) {
 .dia-evento .wordcamp-schedule__session:nth-child(39),
 .dia-evento .wordcamp-schedule__session:nth-child(43),
 .dia-evento .wordcamp-schedule__session:nth-child(44){
-	background:var(--wp--preset--color--accent-1);
+	background: #FFE1C4;
 	color:var(--wp--preset--color--contrast);
 }
 
