@@ -863,3 +863,7 @@ table tbody tr:nth-child(odd) {
 	background:var(--wp--preset--color--accent-1);
 	color:var(--wp--preset--color--contrast);
 }
+
+.wcb-favourite-session {
+    background: #e0f8ff !important;
+}
