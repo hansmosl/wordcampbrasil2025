@@ -863,3 +863,36 @@ table tbody tr:nth-child(odd) {
 .wcb-favourite-session {
     background: #e0f8ff !important;
 }
+
+/* Ícones utilizados na página Programação */
+/* Palestrantes */
+.wordcamp-schedule__session-speakers a:before {
+    content: "\f110";
+    font-family: 'dashicons';
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+/* Palestras */
+.wordcamp-schedule__session-category dd:before {
+    content: "\f323";
+    font-family: 'dashicons';
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+/* Título Dia da Colaboração */
+.icone-colaboracao:before {
+    content: "\f307";
+    font-family: 'dashicons';
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+/* Título Palestras */
+#icone-palestras:before {
+    content: "\f488";
+    font-family: 'dashicons';
+    vertical-align: bottom;
+    margin-right: 10px;
+}
