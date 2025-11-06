@@ -850,73 +850,48 @@ table tbody tr:nth-child(odd) {
 	color:var(--wp--preset--color--contrast);
 }
 .dia-evento .wordcamp-schedule__session .wordcamp-schedule__session-title{
-	color:var(--wp--preset--color--accent-1);
+	color:var(--wp--preset--color--accent-1)
 }
-.dia-evento .wordcamp-schedule__session:nth-child(5){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(5) .wordcamp-schedule__session-title{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(9){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(9) .wordcamp-schedule__session-title a{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(13){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(13) .wordcamp-schedule__session-title a{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(14){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(14) .wordcamp-schedule__session-title a{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(18){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(18) .wordcamp-schedule__session-title a{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(19){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(19) .wordcamp-schedule__session-title a{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(23){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(23) .wordcamp-schedule__session-title a{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(28){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(28) .wordcamp-schedule__session-title{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(33){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(33) .wordcamp-schedule__session-title a{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(38){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(38) .wordcamp-schedule__session-title a{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(39){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(39) .wordcamp-schedule__session-title a,
-.wordcamp-schedule__session-category{color:#fff;}
-.dia-evento .wordcamp-schedule__session:nth-child(43){
-	background:var(--wp--preset--color--accent-1);
-	color:#fff;
-}
-.dia-evento .wordcamp-schedule__session:nth-child(43) .wordcamp-schedule__session-title a,
-.wordcamp-schedule__session-category{color:#fff;}
+.dia-evento .wordcamp-schedule__session:nth-child(5),
+.dia-evento .wordcamp-schedule__session:nth-child(9),
+.dia-evento .wordcamp-schedule__session:nth-child(13),
+.dia-evento .wordcamp-schedule__session:nth-child(14),
+.dia-evento .wordcamp-schedule__session:nth-child(18),
+.dia-evento .wordcamp-schedule__session:nth-child(19),
+.dia-evento .wordcamp-schedule__session:nth-child(23),
+.dia-evento .wordcamp-schedule__session:nth-child(28),
+.dia-evento .wordcamp-schedule__session:nth-child(33),
+.dia-evento .wordcamp-schedule__session:nth-child(38),
+.dia-evento .wordcamp-schedule__session:nth-child(39),
+.dia-evento .wordcamp-schedule__session:nth-child(43),
 .dia-evento .wordcamp-schedule__session:nth-child(44){
 	background:var(--wp--preset--color--accent-1);
-	color:#fff;
+	color:var(--wp--preset--color--contrast);
 }
+.dia-evento .wordcamp-schedule__session:nth-child(5) .wordcamp-schedule__session-title,
+.dia-evento .wordcamp-schedule__session:nth-child(5) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(9) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(9) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(13) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(13) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(14) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(14) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(18) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(18) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(19) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(19) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(23) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(23) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(28) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(28) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(33) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(33) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(38) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(38) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(39) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(39) .wordcamp-schedule__session-speakers a,
+.dia-evento .wordcamp-schedule__session:nth-child(43) .wordcamp-schedule__session-title a,
+.dia-evento .wordcamp-schedule__session:nth-child(43) .wordcamp-schedule__session-speakers a,
 .dia-evento .wordcamp-schedule__session:nth-child(44) .wordcamp-schedule__session-title a,
-.wordcamp-schedule__session-category{color:#fff;}
+.dia-evento .wordcamp-schedule__session:nth-child(44) .wordcamp-schedule__session-speakers a
+{color:var(--wp--preset--color--contrast);}
