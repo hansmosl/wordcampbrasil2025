@@ -579,7 +579,7 @@ ul.wp-block-list {
 		color: #fff !important;
 	}
 	.wp-block-navigation__responsive-container {
-		top: 43px;
+		top: 0;
 		right: 0;
 		padding: 0 !important;
 	}
