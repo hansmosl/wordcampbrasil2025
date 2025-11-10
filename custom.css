@@ -28,7 +28,7 @@ header:has(>.is-position-sticky) {
 @media(min-width:600px){
     .mobile-visible{
         visibility: hidden;
-        display:none;
+        display:none!important;
     }
     .mobile-hidden{
         visibility: visible;
@@ -40,7 +40,7 @@ header:has(>.is-position-sticky) {
     }
     .mobile-hidden{
         visibility: hidden;
-        display:none;
+        display:none!important;
     }
 }
 .wp-block-cover.brilho-4 img{
@@ -592,14 +592,15 @@ ul.wp-block-list {
 		background: var(--wp--preset--color--accent-5);
 		color: #fff;
 		border-radius: 4px;
-		right: 28px;
+		right: 20px;
+		top: 33px;
 	}
 
 	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content {
 		background: var(--wp--preset--color--accent-1);
 		color: #fff;
 		padding: 1rem;
-		margin-top: 70px;
+		margin-top: 90px;
 		max-width: 280px;
 		right: 0;
 		position: absolute;
@@ -667,6 +668,9 @@ ul.wp-block-list {
 
 	.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-social-link {
 		color: #fff;
+	}
+	.wp-block-navigation .wp-block-navigation-item__label{
+		padding:5px 0;
 	}
 }
 
@@ -895,4 +899,38 @@ table tbody tr:nth-child(odd) {
     font-family: 'dashicons';
     vertical-align: bottom;
     margin-right: 10px;
+}
+
+@supports (display:grid) {
+	@media screen and (min-width: 550px) {
+	body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__session.is-spanning-some-tracks {
+		text-align: left;
+	}
+}
+	
+}
+
+/* Feeback */
+
+#sft-feedback .speaker-feedback__field label {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+#sft-feedback .speaker-feedback__field textarea {
+	width: 100%;
+	min-height: 5rem;
+	border-radius: 8px;
+	padding: .5rem 1rem;
+	font-size: 1rem;
+	box-sizing: border-box;
+}
+
+#sft-feedback input[type=submit] {
+	background: var(--wp--preset--color--accent-1);
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 1rem;
 }
